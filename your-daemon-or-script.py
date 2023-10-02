@@ -1,4 +1,4 @@
-
+import numpy as np
 
 
 class House():
@@ -27,4 +27,5 @@ class prospecthouse(House):
         self.prospect = prospect
 PrHouse = prospecthouse(" Проспект ленина ", 5)
 print(PrHouse.prospect + str(PrHouse.number))
+print(np.random.permutation(100))
 

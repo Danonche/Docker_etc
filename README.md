@@ -1,2 +1,2 @@
 # Docker_etc
-My notes about Docker/
+## Адекватный README

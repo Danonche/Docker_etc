@@ -1,8 +1,8 @@
-FROM python:3
+FROM python:3.11-slim-bullseye
 
 WORKDIR /app
 
-COPY . .
+COPY your-daemon-or-script.py .
 
 RUN pip3 install numpy
 
